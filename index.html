@@ -3,26 +3,50 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>SyntaxWear — Loja</title>
+  <title>SyntaxWear — Tênis e Sneakers Online</title>
   <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/variables.css">''
+  <link rel="stylesheet" href="./css/variables.css">
+  <link rel="stylesheet" href="./css/components/header.css">
   <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./css/layout.css">
 
 </head>
 <body>
   <header>
-    <!-- Header / Navegação: marca + links principais -->
-    <div class="site-branding">
-      <a href="/" class="logo">SyntaxWear</a>
+    <!-- Logo / Navegação-->
+    <div class="logo">
+      <a href="/" title="SyntaxWear — Tênis e Sneakers Online">
+        <img src="./images/logo/Logo.svg" alt="SyntaxWear Logo">
+      </a>
     </div>
     <nav aria-label="Navegação principal">
       <ul>
-        <li><a href="#">Home</a></li>
         <li><a href="#">Masculino</a></li>
         <li><a href="#">Feminino</a></li>
-        <li><a href="#">Ofertas</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#">Outlet</a></li>
+      </ul>
+    </nav>
+
+    <!-- Menu secundário (à direita) -->
+    <nav class="menu-right" aria-label="Menu secundário">
+      <ul>
+        <li><a href="#">Nossas lojas</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li>
+          <a href="#" aria-label="Minha conta">
+            <img src="./images/icons/conta.svg" alt="Minha conta">
+          </a>
+        </li>
+        <li>
+        <a href="#" aria-label="Ajuda">
+          <img src="./images/icons/ajuda.svg" alt="Ajuda">
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-label="Sacola de compras">
+            <img src="./images/icons/sacola.svg" alt="Sacola de compras">
+          </a>
+        </li>
       </ul>
     </nav>
   </header>
