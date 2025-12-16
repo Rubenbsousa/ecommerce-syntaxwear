@@ -49,7 +49,14 @@ input, button, textarea, select {
 ul[role='list'], ol[role='list'] {
   list-style: none;
 }
+ul, ol {
+  list-style: none;
+}
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
 /* Improve accessibility for anchors without classes */
 a:not([class]) {
   text-decoration-skip-ink: auto;

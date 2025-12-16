@@ -1,1 +1,45 @@
 /* header.css */
+header  {
+margin: auto;
+margin-top: 38px;
+width: calc (100% - 80px);
+height: 500px;
+border: 1px solid black;
+border-radius: 20px;
+background-image: url(/images/banners/header-image.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.header {
+    background-color: lightblue;
+    border-radius: 16px;
+    display: flex;
+    width: 1360px;
+    margin: 20px;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.logo img {
+    height: 40px;
+}
+.menu-center ul {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.menu-secundario ul {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.menu-secundario img {
+    height: 20px;
+}
