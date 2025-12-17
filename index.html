@@ -1,23 +1,24 @@
 <!doctype html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>SyntaxWear — Tênis e Sneakers Online</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/variables.css">
-  <link rel="stylesheet" href="./css/components/header.css">
   <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./css/layout.css">
-
+  <link rel="stylesheet" href="./css/components/header.css">
+  <link rel="stylesheet" href="./css/components/hero.css">
 </head>
+
 <body>
-  <header>
-    <section  class="header">
+  <header class="header">
       <!-- Logo / Navegação-->
       <div class="logo">
         <a href="/" title="SyntaxWear — Tênis e Sneakers Online">
-        <img src="./images/logo/Logo.svg" alt="SyntaxWear Logo">
+          <img src="./images/logo/Logo.svg" alt="SyntaxWear Logo">
         </a>
       </div>
       <nav class="menu-center" aria-label="Navegação principal">
@@ -50,22 +51,19 @@
           </li>
         </ul>
       </nav>
-    </section>
-    <!-- Banner Top -->
-    <Section class="banner-top">
-      <div>
-        <h3>Krypton One</h3>
-        <p>Trasnforme qualquer passo em presença.</p>
-      </div>
-        <button>Ver modelos</button>
-        <button>Comprar</button>
-    </Section>
   </header>
 
   <main>
-    <!-- Painel / Hero -->
-    <section id="hero" aria-labelledby="hero-title">
-      <h1 id="hero-title">Frase de destaque da loja</h1>
+    <section class="hero-section" aria-labelledby="hero-section">
+      <!-- Secção Hero -->
+      <div class="hero-content">
+        <span class="hero-subtitle">Krypton One</span>
+        <h2 class="hero-title">Trasnforme qualquer passo em presença.</h2>
+        <div class="hero-buttons">
+          <a class="btn btn-outline" href="#">Ver modelos</a>
+          <a class="btn btn-filled" href="#">Comprar</a>
+        </div>
+      </div>
     </section>
 
     <!-- Destaque -->
@@ -95,4 +93,5 @@
 
   <script src="js/main.js" defer></script>
 </body>
+
 </html>
