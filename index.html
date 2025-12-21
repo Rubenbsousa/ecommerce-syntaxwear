@@ -5,12 +5,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>SyntaxWear — Tênis e Sneakers Online</title>
+  <meta name="description" content="Compre tênis e sneakers online na SyntaxWear. Encontre os melhores modelos para todas as ocasiões com entrega rápida e segura para todo Brasil." />
+
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/variables.css">
   <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./css/layout.css">
   <link rel="stylesheet" href="./css/components/header.css">
   <link rel="stylesheet" href="./css/components/hero.css">
+  <link rel="stylesheet" href="./css/components/product-category.css">
 </head>
 
 <body>
@@ -60,24 +63,50 @@
         <span class="hero-subtitle">Krypton One</span>
         <h2 class="hero-title">Trasnforme qualquer passo em presença.</h2>
         <div class="hero-buttons">
-          <a class="btn btn-outline" href="#">Ver modelos</a>
+          <a href="#">Ver modelos</a>
           <a class="btn btn-filled" href="#">Comprar</a>
         </div>
       </div>
     </section>
 
+    <section class="categories-section" aria-labelledby="categories-section">
+      <!-- Seção de categorias de produtos -->
+        <div class="category-cards casual">
+          <a href="#">
+            <span class="overlay"></span>
+            <span class="category-name btn-outline">Casual</span>
+          </a>
+        </div>
+
+        <div class="category-cards esporte">
+          <a href="#">
+            <span class="overlay"></span>
+            <span class="category-name btn-outline">Esporte</span>
+          </a>
+        </div>
+
+        <div class="category-cards moderno">
+          <a href="#">
+            <span class="overlay"></span>
+            <span class="category-name btn-outline">Moderno</span>
+          </a>
+        </div>
+
+        <div class="category-cards futurista">
+          <a href="#">
+            <span class="overlay"></span>
+            <span class="category-name btn-outline">Futurista</span>
+          </a>
+        </div>
+    </section>
+
     <!-- Destaque -->
-    <section id="featured" aria-labelledby="featured-title">
-      <h2 id="featured-title">Destaques</h2>
+    <section class="featured" aria-labelledby="featured-title">
+      <h2 class="featured-title">Destaques</h2>
     </section>
 
     <!-- Grid de produtos -->
-    <section id="product-grid" aria-labelledby="products-title">
-      <h2 id="products-title">Produtos</h2>
-      <ul class="products" role="list">
-        <!-- Itens repetíveis -->
-      </ul>
-    </section>
+ 
   </main>
 
   <footer>
