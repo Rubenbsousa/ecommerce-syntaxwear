@@ -1,12 +1,7 @@
 /* hero.css */
 .hero-section {
-    background: url(/images/banners/hero.jpg) no-repeat center;
-    background-size: cover;
+    background: url(/images/banners/hero.jpg) no-repeat center/cover;
     height: 500px;
     max-width: 1290px;
     position: relative;
-}
-
-.hero-content{
-    
 }

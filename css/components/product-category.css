@@ -30,27 +30,19 @@
 }
 
 .casual {
-    background-image: url('/images/products/casual.jpg');background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+       background: url('/images/products/casual.jpg') no-repeat center/cover;
 }
 
 .esporte {
-  background-image: url('/images/products/esporte.jpg');background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+   background: url('/images/products/esporte.jpg') no-repeat center/cover;
 }
 
 .moderno {
-   background-image: url('/images/products/moderno.jpg');background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+   background: url('/images/products/moderno.jpg') no-repeat center/cover;
 }
 
 .futurista {
-    background-image: url('/images/products/futurista.jpg');background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url('/images/products/futurista.jpg') no-repeat center/cover;
 }
 
 .btn-outline:hover {

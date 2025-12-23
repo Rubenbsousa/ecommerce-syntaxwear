@@ -1,0 +1,65 @@
+/* product-grid.css */
+
+.highlight {
+    grid-area: highlight;
+    background-image: url(../../images/products/highlight.jpg);
+}
+
+.sneaker-purple {
+    grid-area: sneaker-purple;
+    background-image: url(../../images/products/sneaker-purple.jpg);
+}
+
+.model {
+    grid-area: model;
+    background-image: url(../../images/products/model.jpg);
+}
+
+.sneaker-color {
+    grid-area: sneaker-color;
+    background-image: url(../../images/products/sneaker-color.jpg);
+}
+
+.sneaker-white {
+    grid-area: sneaker-white;
+    background-image: url(../../images/products/sneaker-white.jpg);
+}
+
+.sneaker-silver {
+    grid-area: sneaker-silver;
+    background-image: url(../../images/products/sneaker-silver.jpg);
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas:
+        "highlight highlight sneaker-purple sneaker-purple"
+        "highlight highlight model sneaker-color"
+        "sneaker-white sneaker-white model sneaker-silver";
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.grid-section .highlight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+   padding: 10px 40px;
+   border: 1px solid white;
+   border-radius: 15px;
+   font-size: 1.25rem;
+   font-weight: 400;
+   color: white;
+}
+
+.btn-outline:hover {
+    color: #ffffff;
+    border-color: #7c3aed;
+    background-color: #7c3aed;
+}

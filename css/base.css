@@ -5,3 +5,9 @@ body {
   color: #333333;
   background-color: black;
 }
+
+main{
+  padding: 2.5rem 2.5rem 0 2.5rem;
+  max-width: 1360px;
+  margin: 0 auto;
+}
