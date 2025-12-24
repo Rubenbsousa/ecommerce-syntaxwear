@@ -30,6 +30,13 @@
     background-image: url(../../images/products/sneaker-silver.jpg);
 }
 
+.card {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
 .grid-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -40,6 +47,7 @@
         "sneaker-white sneaker-white model sneaker-silver";
     gap: 20px;
     margin-top: 40px;
+    position: relative;
 }
 
 .grid-section .highlight {
@@ -47,6 +55,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .btn {
@@ -60,6 +69,31 @@
 
 .btn-outline:hover {
     color: #ffffff;
-    border-color: #7c3aed;
+    border-color: #ffffff;
     background-color: #7c3aed;
+}
+
+.top1-content {
+    position: absolute;
+    text-align: center;
+    background-position: absolute;
+}
+
+.card-title {
+    color: #EDEDED;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.card-subtitle {
+    color: #EDEDED;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.cta-group {
+    display: flex;
+    gap: 10px;
 }
