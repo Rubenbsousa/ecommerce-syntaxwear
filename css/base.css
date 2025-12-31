@@ -12,3 +12,25 @@ main{
   margin: 0 auto;
   margin-bottom: 40px;
 }
+
+@media (max-width:1280px) {
+  main{
+    padding: 0.625rem;
+  }
+  
+}
+
+.btn {
+   padding: 10px 40px;
+   border: 1px solid white;
+   border-radius: 15px;
+   font-size: 1.25rem;
+   font-weight: 400;
+   color: white;
+}
+
+.btn-outline:hover {
+    color: #ffffff;
+    border-color: #7c3aed;
+    background-color: #7c3aed;
+}

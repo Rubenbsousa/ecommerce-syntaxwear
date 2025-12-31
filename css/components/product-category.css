@@ -44,9 +44,3 @@
 .futurista {
     background: url('../../images/products/futurista.jpg') no-repeat center/cover;
 }
-
-.btn-outline:hover {
-    color: #ffffff;
-    border-color: #7c3aed;
-    background-color: #7c3aed;
-}

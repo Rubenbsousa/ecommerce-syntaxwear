@@ -58,21 +58,6 @@
     position: relative;
 }
 
-.btn {
-   padding: 10px 40px;
-   border: 1px solid white;
-   border-radius: 15px;
-   font-size: 1.25rem;
-   font-weight: 400;
-   color: white;
-}
-
-.btn-outline:hover {
-    color: #ffffff;
-    border-color: #ffffff;
-    background-color: #7c3aed;
-}
-
 .top1-content {
     display: flex;
     flex-direction: column;

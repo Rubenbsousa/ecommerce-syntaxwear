@@ -6,7 +6,7 @@
     top: 60px;
     left: 50%;
     transform: translateX(-50%);
-    width: calc(100% - 210px);
+    width: 1260px;
     border-radius: 15px;
     z-index: 999;
     display: flex;
@@ -47,9 +47,11 @@
 
 .nav-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     align-items: center;
+    flex:1;
+    margin-left: 10rem;
 }
 
 .menu-toggle {
@@ -81,10 +83,6 @@
 
     .menu-icon {
         display: block;
-        /* width: 30px;
-        height: 30px;
-        cursor: pointer;
-        z-index: 1001; */
     }
 
     .nav-container {
@@ -97,7 +95,6 @@
         background-color: #ffffff;
         gap: 2rem;
         transition: right 0.3s ease;
-        align-items: flex-start;
     }
 
     .nav-center, nav.menu-secundario {
@@ -105,10 +102,10 @@
         text-align: center;
     }
     
-    .nav-center li, nav.menu-secundario li {
+    /* .nav-center li, nav.menu-secundario li {
         width: 100%;
         text-align: center;
-    }
+    } */
 
     .menu-center ul, .menu-secundario ul {
         flex-direction: column;
@@ -116,12 +113,12 @@
         width: 100%;
     }
 
-    .nav-center a, .menu-secundario a {
+    .menu-center a, .menu-secundario a {
+        display: block;
         width: 100%;
         border-bottom: 1px solid #eeeeee;
         padding: 0.3rem 0;
-        font-size: 1rem;
-        display: block;
+        font-size: 1.25rem;
     }
 
     .menu-toggle:checked ~ .nav-container {
