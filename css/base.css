@@ -30,7 +30,7 @@ main{
 }
 
 .btn-outline:hover {
-    color: #ffffff;
+    color: #7c3aed;
     border-color: #7c3aed;
-    background-color: #7c3aed;
+    background-color: #ffffff;
 }

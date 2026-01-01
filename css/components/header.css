@@ -102,11 +102,6 @@
         text-align: center;
     }
     
-    /* .nav-center li, nav.menu-secundario li {
-        width: 100%;
-        text-align: center;
-    } */
-
     .menu-center ul, .menu-secundario ul {
         flex-direction: column;
         gap: 1.5rem;
