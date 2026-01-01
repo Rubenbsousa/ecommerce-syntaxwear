@@ -2,34 +2,75 @@
 .hero-section {
     background: url(/images/banners/hero.jpg) no-repeat center/cover;
     height: 31.25rem;
-    max-width: 80.625rem;
-    position: relative;
+    max-width: 85rem;
+   
     border-radius: 0.9375rem;
 }
 
-.hero-overlay {
-    width: 100%;
-    height: 100%;
+.hero-content {
+    position: relative;
+    top: 13.125rem;
+    height: 18.75rem;
+    width: calc(100% - 1rem);
+    color: #FFFFFF;
     display: flex;
-    align-items: center;
     justify-content: flex-end;
-    padding: 0 6rem;
+    align-items: center;
+    margin: 0 auto;
 }
 
-.hero-title .hero-subtitle {
+.hero-overlay {
+    position: absolute;
+    width: 390px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content:center;
+    margin-right: 6.25rem;
+    margin-bottom: 6.25rem;
+}
+
+.hero-subtitle {
     font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #ededed;
+}
+.hero-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #ededed;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
 }
 
 @media (max-width: 768px) {
     .hero-section {
-        height: 41.875rem;
-        max-width: 24.375rem;
+        height: 41.375rem;
+        min-width: 24.375rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .hero-overlay {
+    .hero-content {
+        display: flex;
         justify-content: center;
-        padding: 0 2rem;
+    }
+    .hero-overlay {
+        margin: 0;
+        width: 24.375rem;
+        height: auto;
+        gap: 1.5rem;
     }
 
     .hero-title .hero-subtitle {
