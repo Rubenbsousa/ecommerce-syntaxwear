@@ -1,6 +1,6 @@
 /* hero.css */
 .hero-section {
-    background: url(/images/banners/hero.jpg) no-repeat center/cover;
+    background: url(../../images/banners/hero.jpg) no-repeat center/cover;
     height: 31.25rem;
     max-width: 85rem;
    
